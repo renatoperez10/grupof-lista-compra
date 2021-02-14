@@ -14,3 +14,30 @@ section {
 body {
   background-color: #fb881f;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 10px;
+  font-size: 16px;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+.link-active {
+  font-weight: bolder;
+}
