@@ -1,3 +1,5 @@
+/* Globales */
+
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +7,10 @@
 }
 
 h1 {
+  font-weight: 500;
+}
+
+h2 {
   font-weight: 500;
 }
 
@@ -19,6 +25,8 @@ section {
 body {
   background-color: #fb881f;
 }
+
+/* Navegación */
 
 header {
   display: flex;
@@ -47,6 +55,8 @@ nav ul a:hover {
   font-weight: bolder;
 }
 
+/* Barra información */
+
 section {
   display: flex;
   justify-content: space-between;
@@ -62,4 +72,77 @@ section {
 section p {
   padding: 0px 10px;
   font-size: 24px;
+}
+
+/* Listado */
+main {
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.contenedor-listado {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+
+.contenedor-listado:hover {
+  background-color: rgba(0, 0, 0, .2);
+  color: white;
+}
+
+.contenido1 {
+  width: 1%;
+  text-align: left;
+}
+
+.contenido2 {
+  width: 80%;
+  margin: 10px;
+  text-align: left;
+}
+
+.contenido3 {
+  width: 20%;
+  margin: 10px;
+  text-align: right;
+}
+
+.contenido4 {
+  width: 1%;
+  margin: 10px;
+  text-align: right;
+  font-size: 25px;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+main p {
+  padding: 15px 10px;
+  text-align: right;
+  font-size: 26px;
+}
+
+/* Formulario */
+
+div label {
+  display: block;
+  padding: 10px 0px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  border: none;
+}
+
+button {
+  background-color: rgb(31, 120, 192);
+  color: white;
+  border: none;
+  padding: 10px 5px;
+  margin-top: 20px;
+  font-size: 20px;
 }
